@@ -1,0 +1,7 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <include file="db/changelog/2023/12/30-01-create_account.sql"/>
+    <include file="db/changelog/2023/12/30-02-create_board_category.sql"/>
+    <include file="db/changelog/2024/01/01-01-create_board.sql"/>
+    <include file="db/changelog/2024/01/01-02-create_article.sql"/>
+    <include file="db/changelog/2024/01/01-03-drop_board_category.sql"/>
+</databaseChangeLog>
